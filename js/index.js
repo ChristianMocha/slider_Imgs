@@ -11,7 +11,7 @@ img[6] = '../img/7.jpg'
 img[7] = '../img/8.jpg'
 img[8] = '../img/9.jpg'
 img[9] = '../img/10.jpg'
-img[10] = '../img/11.jpg'
+
 
 function cambiarImagen(int) {
     if (int == 1) {

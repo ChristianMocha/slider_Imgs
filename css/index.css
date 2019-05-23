@@ -22,21 +22,22 @@ body .contenedor{
 }
 .contenedor .btns{
     margin-top: 15px;
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
 }
 .contenedor input{
-    padding: 10px 20px;
-    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: 5px;
     border: none;
-    border-radius: 10px;
-    background-color: #E80C2E;
-    color: #FFF;
+    border-bottom: 1px solid #e53935; 
+    border-radius: 3px;
 }
 .contenedor input:hover{
     background-color: #FF2F1A;
 }
+
+
 @font-face{
     font-family: rale;
     src: url(../fuentes/Raleway-Regular.ttf)
