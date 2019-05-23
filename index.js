@@ -1,16 +1,16 @@
-let img = [];
+var img = [];
 var indice = 0
 var slid
-img[0] = '../img/1.jpg'
-img[1] = '../img/2.jpg'
-img[2] = '../img/3.jpg'
-img[3] = '../img/4.jpg'
-img[4] = '../img/5.jpg'
-img[5] = '../img/6.jpg'
-img[6] = '../img/7.jpg'
-img[7] = '../img/8.jpg'
-img[8] = '../img/9.jpg'
-img[9] = '../img/10.jpg'
+img[0] = 'img/1.jpg'
+img[1] = 'img/2.jpg'
+img[2] = 'img/3.jpg'
+img[3] = 'img/4.jpg'
+img[4] = 'img/5.jpg'
+img[5] = 'img/6.jpg'
+img[6] = 'img/7.jpg'
+img[7] = 'img/8.jpg'
+img[8] = 'img/9.jpg'
+img[9] = 'img/10.jpg'
 
 
 function cambiarImagen(int) {
@@ -32,7 +32,7 @@ function cambiarImagen(int) {
 function startSlide() {
     let btn = document.getElementById("start")
     if (btn.value == 'Iniciar') {
-        slid = setInterval(cambiarImagen, 900)
+        slid = setInterval(cambiarImagen, 800)
         btn.value = 'Parar'
     } else {
         clearInterval(slid)
